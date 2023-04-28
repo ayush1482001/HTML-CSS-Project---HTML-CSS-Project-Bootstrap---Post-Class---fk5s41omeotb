@@ -5,7 +5,7 @@
 .view{
     width: 100%;
     height: 100vh;
-    background-color: rgba(27, 181, 220, 0.32);
+    background-color: rgba(220, 37, 27, 0.32);
     display: flex;
     align-items: center;
     justify-content: space-around;   
@@ -15,7 +15,7 @@
     width: 375px;
     display: block;
     border: 2px solid black;
-    background-image:url(./pexels-bess-hamiti-36487.jpg);
+    background-image:url("https://th.bing.com/th/id/R.91e206fa02d81f85dd4e42ef005a88d9?rik=5MxgANLhpAlBJw&riu=http%3a%2f%2fthewowstyle.com%2fwp-content%2fuploads%2f2015%2f07%2fautunm-desktop-natural-hd-wallpapers.jpg&ehk=j7yVlSgUBySdpPIKhx0ovaCIvpI2u%2f%2bw3lfHET9HT4w%3d&risl=1&pid=ImgRaw&r=0");
     background-size: cover;
     border-radius: 10px;
 }
