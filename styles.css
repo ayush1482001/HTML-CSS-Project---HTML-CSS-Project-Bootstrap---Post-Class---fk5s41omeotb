@@ -1,1 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.view{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(27, 181, 220, 0.32);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+}
+.phone{
+    height: 667px;
+    width: 375px;
+    display: block;
+    border: 2px solid black;
+    background-image:url(./pexels-bess-hamiti-36487.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+nav{
+    position: sticky;
+    width: 355px;
+    top: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(228, 217, 217);
+    padding: 10px;
+    border-radius:0 0 10px 10px;
 
+}
+nav li{
+    list-style: none;
+   
+}
+span{font-size: 9px;
+font-family: Arial, Helvetica, sans-serif;}
+a:hover{
+    color: rgb(128, 0, 0);
+}
